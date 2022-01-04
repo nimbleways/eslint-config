@@ -1,0 +1,21 @@
+{
+  "name": "nimble-eslint-config",
+  "eslintConfig": {
+    "extends": [
+      "./index.js"
+    ],
+    "ignorePatterns": [
+      "examples"
+    ],
+    "root": true
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.2.1",
+    "eslint": "^7"
+  }
+}
