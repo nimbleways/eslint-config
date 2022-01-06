@@ -153,7 +153,6 @@ module.exports = {
     {
       files: ["**/*.ts?(x)"],
       parser: "@typescript-eslint/parser",
-    //   extends: ["plugin:prettier/recommended"],
       parserOptions: {
         ecmaVersion: 2018,
         sourceType: "module",
