@@ -2,8 +2,48 @@
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
+  plugins: ["simple-import-sort"],
   rules: {
-
+    "sort-imports": "off",
+    "simple-import-sort/imports": [
+      "warn",
+      {
+        groups: [
+          /**
+           * Styles related imports
+           * - import "index.css"
+           * - import "button.scss"
+           */
+          ["^.+\\.s?css$"],
+          /**
+           * Side Effect imports
+           */
+          ["^\\u0000"],
+          /**
+           * React related imports
+           * - import * as React from "react";
+           */
+          ["^react$", "^react-dom$"],
+          /**
+           * Alias path imports
+           */
+          ["^~", "^@/"],
+          /**
+           * Parent imports
+           * - ../patch
+           * - ../
+           */
+          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+          /**
+           * Same level import
+           * - ./nav
+           * - ./nav/menu-item
+           * - ./
+           */
+          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+        ],
+      },
+    ],
   },
   overrides: [
     /**
