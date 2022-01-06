@@ -5,6 +5,9 @@
     "extends": [
       "./index.js"
     ],
+    "rules": {
+      "max-lines": "off"
+    },
     "ignorePatterns": [
       "examples"
     ],
