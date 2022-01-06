@@ -1,9 +1,18 @@
 {
   "name": "@nimbleways/eslint-config",
   "version": "0.0.1",
+  "main": "index.js",
   "homepage": "https://github.com/nimbleways/eslint-config",
   "repository": "https://github.com/nimbleways/eslint-config",
   "author": "Nimbleways ( https://nimbleways.com/ )",
+  "scripts": {
+    "# === GENERAL === #": "=======================================",
+    "lint": "eslint --fix \"*.js\"",
+    "# === NPM PUBLISH === #": "===================================",
+    "prepare": "husky install $PWD/.husky",
+    "prepublishOnly": "yarn lint",
+    "ship": "np"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
@@ -15,6 +24,8 @@
   "devDependencies": {
     "@types/eslint": "^8.2.1",
     "eslint": "^7",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.5",
     "prettier": "^2.5.1"
   },
   "eslintConfig": {
@@ -35,6 +46,14 @@
     "semi": true,
     "singleQuote": false,
     "trailingComma": "all"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ],
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
   },
   "license": "MIT"
 }
