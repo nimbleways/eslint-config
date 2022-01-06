@@ -5,6 +5,9 @@
   "homepage": "https://github.com/nimbleways/eslint-config",
   "repository": "https://github.com/nimbleways/eslint-config",
   "author": "Nimbleways ( https://nimbleways.com/ )",
+  "files": [
+    "**/*.js"
+  ],
   "scripts": {
     "# === GENERAL === #": "=======================================",
     "lint": "eslint --fix \"*.js\"",
@@ -26,6 +29,7 @@
     "eslint": "^7",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.5",
+    "np": "^7.6.0",
     "prettier": "^2.5.1"
   },
   "eslintConfig": {
@@ -54,6 +58,13 @@
     "**/*.{js,jsx,ts,tsx}": [
       "eslint --fix"
     ]
+  },
+  "np": {
+    "branch": "main"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "license": "MIT"
 }
