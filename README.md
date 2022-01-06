@@ -60,3 +60,7 @@ module.exports = {
   ],
 };
 ```
+
+
+## LICENSE
+[MIT License, Copyright © 2022 Nimbleways](./LICENSE)
