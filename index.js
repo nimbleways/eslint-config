@@ -7,6 +7,7 @@ module.exports = {
     "./best-practice.js",
     "./es6",
     "./variables",
+    "./stylistic"
   ],
   plugins: [],
   rules: {},
