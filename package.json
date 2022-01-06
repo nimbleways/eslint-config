@@ -1,5 +1,6 @@
 {
   "name": "nimble-eslint-config",
+  "version": "0.0.1",
   "eslintConfig": {
     "extends": [
       "./index.js"
