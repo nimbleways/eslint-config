@@ -9,26 +9,54 @@
   - [React Projects](#react-projects)
   - [Next.js Projects](#nextjs-projects)
 - [Usage](#usage)
-- [Rules](#rules)
 
 ---
 
-## Installing
+## Installation
 
-TODO
-
-### React Projects
-
-TODO
-
-### Next.js Projects
-
-TODO
+Using NPM:
+```
+npm install --save-dev @nimbleways/eslint-config
+```
+Using Yarn:
+```
+yarn add --dev @nimbleways/eslint-config
+```
+This packages requires `eslint@^7` as a required peer depedency.
 
 ## Usage
+### React Projects
 
-TODO
+```js
+module.exports = {
+  extends: [
+    "@nimbleways/eslint-config",
+    // ...
+  ],
+};
+```
+### Next.js Projects
+Add `eslint-config-next` as dev dependency.
+```js
+module.exports = {
+  extends: [
+    "plugin:@next/next/recommended",
+    "@nimbleways/eslint-config",
+    // ...
+  ],
+};
+```
 
-## Rules
+**Experimental Rules :**
 
-TODO
+Week keep on bullet proofing our standards everyday.
+If you want to try using our config with the "yet to prove worthy" rules, here is how
+
+```js
+module.exports = {
+  extends: [
+    "@nimbleways/eslint-config/experimental",
+    // ...
+  ],
+};
+```
