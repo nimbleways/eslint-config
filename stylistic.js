@@ -2,6 +2,7 @@
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
+  extends: ["plugin:prettier/recommended"],
   rules: {
     "array-bracket-newline": "off", // https://eslint.org/docs/rules/array-bracket-newline
     "array-bracket-spacing": "off", // https://eslint.org/docs/rules/array-bracket-spacing
@@ -152,6 +153,7 @@ module.exports = {
     {
       files: ["**/*.ts?(x)"],
       parser: "@typescript-eslint/parser",
+    //   extends: ["plugin:prettier/recommended"],
       parserOptions: {
         ecmaVersion: 2018,
         sourceType: "module",
