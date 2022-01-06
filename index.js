@@ -2,12 +2,12 @@
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: [],
+  extends: ["./possible-errors.js"],
   plugins: [],
   rules: {},
   overrides: [
     /**
-     * Assuming all the projects uses Typescript
+     * Typescript Overrides
      */
     {
       files: ["**/*.ts?(x)"],
