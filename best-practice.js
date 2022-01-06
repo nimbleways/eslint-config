@@ -101,8 +101,6 @@ module.exports = {
       "prefer-promise-reject-errors": ["error", { allowEmptyReject: false }], // https://eslint.org/docs/rules/prefer-promise-reject-errors
       "prefer-regex-literals": ["error", { disallowRedundantWrapping: true }], // https://eslint.org/docs/rules/prefer-regex-literals
       radix: ["error", "always"], // https://eslint.org/docs/rules/radix
-      // TO BE CHALLENGED
-      "react-hooks/exhaustive-deps": "off", // https://github.com/facebook/react/issues/14920
       "require-await": "off", // https://eslint.org/docs/rules/require-await
       "require-unicode-regexp": "error", // https://eslint.org/docs/rules/require-unicode-regexp
       "vars-on-top": "off", // https://eslint.org/docs/rules/vars-on-top
@@ -135,8 +133,6 @@ module.exports = {
               minimumDescriptionLength: 5,
             },
           ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/ban-ts-comment.md
-          // TO BE CHALLENGED
-          "@typescript-eslint/ban-types": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/ban-types.md
           "@typescript-eslint/class-literal-property-style": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/class-literal-property-style.md
           "@typescript-eslint/consistent-type-assertions": [
             "error",
@@ -310,11 +306,7 @@ module.exports = {
             },
           ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/restrict-template-expressions.md
           "@typescript-eslint/return-await": ["error", "in-try-catch"], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/return-await.md
-          // TO BE CHALLENGED
-          "@typescript-eslint/strict-boolean-expressions": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/strict-boolean-expressions.md
           "@typescript-eslint/switch-exhaustiveness-check": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md
-          // TO BE CHALLENGED
-          "@typescript-eslint/triple-slash-reference": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/triple-slash-reference.md
           "@typescript-eslint/unbound-method": ["error", { ignoreStatic: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/unbound-method.md
         },
       },
