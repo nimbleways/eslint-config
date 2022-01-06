@@ -31,8 +31,6 @@ module.exports = {
       plugins: ["@typescript-eslint"],
       rules: {
         "@typescript-eslint/init-declarations": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/init-declarations.md
-        // TO BE CHALLENGED
-        "@typescript-eslint/naming-convention": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/naming-convention.md
         "@typescript-eslint/no-shadow": [
           "error",
           {
