@@ -57,10 +57,6 @@ module.exports = {
       "error",
       { max: 300, skipBlankLines: true, skipComments: true },
     ], // https://eslint.org/docs/rules/max-lines
-    "max-lines-per-function": [
-      "error",
-      { max: 30, skipBlankLines: false, skipComments: false, IIFEs: true },
-    ], // https://eslint.org/docs/rules/max-lines-per-function
     "max-nested-callbacks": ["error", { max: 2 }], // https://eslint.org/docs/rules/max-nested-callbacks
     "max-params": ["error", { max: 4 }], // https://eslint.org/docs/rules/max-params
     "max-statements": [

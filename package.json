@@ -22,7 +22,10 @@
     "@typescript-eslint/parser": "^4.33.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-func": "^0.1.17",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "loadash": "^1.0.0",
     "typescript": "^4.5.4"
   },
   "devDependencies": {
