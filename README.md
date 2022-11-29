@@ -47,20 +47,6 @@ module.exports = {
 };
 ```
 
-**Experimental Rules :**
-
-Week keep on bullet proofing our standards everyday.
-If you want to try using our config with the "yet to prove worthy" rules, here is how
-
-```js
-module.exports = {
-  extends: [
-    "@nimbleways/eslint-config/experimental",
-    // ...
-  ],
-};
-```
-
 
 ## LICENSE
 [MIT License, Copyright © 2022 Nimbleways](./LICENSE)
