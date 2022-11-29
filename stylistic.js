@@ -211,11 +211,6 @@ module.exports = {
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md
         "@typescript-eslint/object-curly-spacing": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/object-curly-spacing.md
         "@typescript-eslint/prefer-for-of": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-for-of.md
-        "@typescript-eslint/quotes": [
-          "error",
-          "single",
-          { avoidEscape: true, allowTemplateLiterals: false },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/quotes.md
         "@typescript-eslint/semi": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/semi.md
         "@typescript-eslint/sort-type-union-intersection-members": [
           "error",
