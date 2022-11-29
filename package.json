@@ -7,15 +7,14 @@
   "repository": "https://github.com/nimbleways/eslint-config",
   "author": "Nimbleways ( https://nimbleways.com/ )",
   "files": [
-    "**/*.js"
+    "*.js"
   ],
   "scripts": {
     "# === GENERAL === #": "=======================================",
     "lint": "eslint --fix \"*.js\"",
     "# === NPM PUBLISH === #": "===================================",
-    "prepare": "husky install $PWD/.husky",
-    "prepublishOnly": "yarn lint",
-    "ship": "np"
+    "prepare": "husky install",
+    "release": "np"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
@@ -33,7 +32,7 @@
     "eslint": "^7",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.5",
-    "np": "^7.6.0",
+    "np": "^7",
     "prettier": "^2.5.1"
   },
   "eslintConfig": {
