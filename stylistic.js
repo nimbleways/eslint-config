@@ -5,6 +5,12 @@ module.exports = {
   plugins: ["simple-import-sort"],
   extends: ["plugin:prettier/recommended"],
   rules: {
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "lf",
+      },
+    ],
     "simple-import-sort/imports": [
       "warn",
       {
