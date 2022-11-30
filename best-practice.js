@@ -11,10 +11,7 @@ module.exports = {
         enforceForClassMembers: true,
       },
     ], // https://eslint.org/docs/rules/accessor-pairs
-    "array-callback-return": [
-      "error",
-      { allowImplicit: false, checkForEach: true },
-    ], // https://eslint.org/docs/rules/array-callback-return
+    "array-callback-return": ["error", { allowImplicit: false, checkForEach: true }], // https://eslint.org/docs/rules/array-callback-return
     "block-scoped-var": "error", // https://eslint.org/docs/rules/block-scoped-var
     "class-methods-use-this": ["error", { exceptMethods: [] }], // https://eslint.org/docs/rules/class-methods-use-this
     complexity: ["error", { max: 10 }], // https://eslint.org/docs/rules/complexity
@@ -92,10 +89,7 @@ module.exports = {
     "no-useless-escape": "error", // https://eslint.org/docs/rules/no-useless-escape
     "no-useless-return": "error", // https://eslint.org/docs/rules/no-useless-return
     "no-void": ["error", { allowAsStatement: false }], // https://eslint.org/docs/rules/no-void
-    "no-warning-comments": [
-      "warn",
-      { terms: ["todo", "fixme", "tofix", "fix"], location: "start" },
-    ], // https://eslint.org/docs/rules/no-warning-comments
+    "no-warning-comments": ["warn", { terms: ["todo", "fixme", "tofix", "fix"], location: "start" }], // https://eslint.org/docs/rules/no-warning-comments
     "no-with": "error", // https://eslint.org/docs/rules/no-with
     "prefer-named-capture-group": "error", // https://eslint.org/docs/rules/prefer-named-capture-group
     "prefer-promise-reject-errors": ["error", { allowEmptyReject: false }], // https://eslint.org/docs/rules/prefer-promise-reject-errors
@@ -141,37 +135,21 @@ module.exports = {
         "@typescript-eslint/default-param-last": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/default-param-last.md
         "@typescript-eslint/dot-notation": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/dot-notation.md
         "@typescript-eslint/method-signature-style": ["error", "property"], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/method-signature-style.md
-        "@typescript-eslint/no-base-to-string": [
-          "error",
-          { ignoredTypeNames: [] },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-base-to-string.md
+        "@typescript-eslint/no-base-to-string": ["error", { ignoredTypeNames: [] }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-base-to-string.md
         "@typescript-eslint/no-confusing-void-expression": [
           "error",
           { ignoreArrowShorthand: false, ignoreVoidOperator: false },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-confusing-void-expression.md
-        "@typescript-eslint/no-duplicate-imports": [
-          "error",
-          { includeExports: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-duplicate-imports.md
+        "@typescript-eslint/no-duplicate-imports": ["error", { includeExports: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-duplicate-imports.md
         "@typescript-eslint/no-dynamic-delete": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-dynamic-delete.md
         "@typescript-eslint/no-empty-function": [
           "error",
           {
-            allow: [
-              "private-constructors",
-              "protected-constructors",
-              "decoratedFunctions",
-            ],
+            allow: ["private-constructors", "protected-constructors", "decoratedFunctions"],
           },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-empty-function.md
-        "@typescript-eslint/no-empty-interface": [
-          "error",
-          { allowSingleExtends: false },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-empty-interface.md
-        "@typescript-eslint/no-explicit-any": [
-          "error",
-          { fixToUnknown: false, ignoreRestArgs: false },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-explicit-any.md
+        "@typescript-eslint/no-empty-interface": ["error", { allowSingleExtends: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-empty-interface.md
+        "@typescript-eslint/no-explicit-any": ["error", { fixToUnknown: false, ignoreRestArgs: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-explicit-any.md
         "@typescript-eslint/no-extraneous-class": [
           "error",
           {
@@ -181,24 +159,12 @@ module.exports = {
             allowWithDecorator: true,
           },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-extraneous-class.md
-        "@typescript-eslint/no-floating-promises": [
-          "error",
-          { ignoreVoid: false, ignoreIIFE: false },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-floating-promises.md
+        "@typescript-eslint/no-floating-promises": ["error", { ignoreVoid: false, ignoreIIFE: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-floating-promises.md
         "@typescript-eslint/no-for-in-array": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-for-in-array.md
-        "@typescript-eslint/no-implicit-any-catch": [
-          "error",
-          { allowExplicitAny: false },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md
+        "@typescript-eslint/no-implicit-any-catch": ["error", { allowExplicitAny: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md
         "@typescript-eslint/no-implied-eval": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-implied-eval.md
-        "@typescript-eslint/no-inferrable-types": [
-          "error",
-          { ignoreParameters: true, ignoreProperties: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-inferrable-types.md
-        "@typescript-eslint/no-invalid-this": [
-          "error",
-          { capIsConstructor: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-invalid-this.md
+        "@typescript-eslint/no-inferrable-types": ["error", { ignoreParameters: true, ignoreProperties: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-inferrable-types.md
+        "@typescript-eslint/no-invalid-this": ["error", { capIsConstructor: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-invalid-this.md
         "@typescript-eslint/no-invalid-void-type": [
           "error",
           { allowInGenericTypeArguments: true, allowAsThisParameter: true },
@@ -206,23 +172,11 @@ module.exports = {
         "@typescript-eslint/no-loop-func": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-loop-func.md
         "@typescript-eslint/no-magic-numbers": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-magic-numbers.md
         "@typescript-eslint/no-misused-new": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-misused-new.md
-        "@typescript-eslint/no-misused-promises": [
-          "error",
-          { checksVoidReturn: true, checksConditionals: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-misused-promises.md
-        "@typescript-eslint/no-namespace": [
-          "error",
-          { allowDeclarations: false, allowDefinitionFiles: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-namespace.md
-        "@typescript-eslint/no-redeclare": [
-          "error",
-          { builtinGlobals: true, ignoreDeclarationMerge: false },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-redeclare.md
+        "@typescript-eslint/no-misused-promises": ["error", { checksVoidReturn: true, checksConditionals: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-misused-promises.md
+        "@typescript-eslint/no-namespace": ["error", { allowDeclarations: false, allowDefinitionFiles: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-namespace.md
+        "@typescript-eslint/no-redeclare": ["error", { builtinGlobals: true, ignoreDeclarationMerge: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-redeclare.md
         "@typescript-eslint/no-require-imports": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-require-imports.md
-        "@typescript-eslint/no-this-alias": [
-          "error",
-          { allowDestructuring: true, allowedNames: [] },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-this-alias.md
+        "@typescript-eslint/no-this-alias": ["error", { allowDestructuring: true, allowedNames: [] }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-this-alias.md
         "@typescript-eslint/no-throw-literal": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-throw-literal.md
         "@typescript-eslint/no-unnecessary-condition": [
           "error",
@@ -233,10 +187,7 @@ module.exports = {
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-condition.md
         "@typescript-eslint/no-unnecessary-qualifier": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-qualifier.md
         "@typescript-eslint/no-unnecessary-type-arguments": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-type-arguments.md
-        "@typescript-eslint/no-unnecessary-type-assertion": [
-          "error",
-          { typesToIgnore: [] },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-type-assertion.md
+        "@typescript-eslint/no-unnecessary-type-assertion": ["error", { typesToIgnore: [] }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-type-assertion.md
         "@typescript-eslint/no-unnecessary-type-constraint": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-type-constraint.md
         "@typescript-eslint/no-unused-expressions": [
           "error",
@@ -255,10 +206,7 @@ module.exports = {
         "@typescript-eslint/prefer-enum-initializers": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-enum-initializers.md
         "@typescript-eslint/prefer-function-type": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-function-type.md
         "@typescript-eslint/prefer-includes": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-includes.md
-        "@typescript-eslint/prefer-literal-enum-member": [
-          "error",
-          { allowBitwiseExpressions: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-literal-enum-member.md
+        "@typescript-eslint/prefer-literal-enum-member": ["error", { allowBitwiseExpressions: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-literal-enum-member.md
         "@typescript-eslint/prefer-namespace-keyword": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-namespace-keyword.md
         "@typescript-eslint/prefer-nullish-coalescing": [
           "error",
@@ -268,10 +216,7 @@ module.exports = {
           },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md
         "@typescript-eslint/prefer-optional-chain": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-optional-chain.md
-        "@typescript-eslint/prefer-readonly": [
-          "error",
-          { onlyInlineLambdas: false },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-readonly.md
+        "@typescript-eslint/prefer-readonly": ["error", { onlyInlineLambdas: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-readonly.md
         "@typescript-eslint/prefer-reduce-type-parameter": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
         "@typescript-eslint/prefer-regexp-exec": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-regexp-exec.md
         "@typescript-eslint/prefer-return-this-type": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-return-this-type.md
@@ -287,15 +232,9 @@ module.exports = {
             checkMethodDeclarations: true,
           },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/promise-function-async.md
-        "@typescript-eslint/require-array-sort-compare": [
-          "error",
-          { ignoreStringArrays: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/require-array-sort-compare.md
+        "@typescript-eslint/require-array-sort-compare": ["error", { ignoreStringArrays: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/require-array-sort-compare.md
         "@typescript-eslint/require-await": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/require-await.md
-        "@typescript-eslint/restrict-plus-operands": [
-          "error",
-          { checkCompoundAssignments: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
+        "@typescript-eslint/restrict-plus-operands": ["error", { checkCompoundAssignments: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
         "@typescript-eslint/restrict-template-expressions": [
           "error",
           {

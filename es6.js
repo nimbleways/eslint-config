@@ -3,11 +3,7 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
   rules: {
-    "arrow-body-style": [
-      "error",
-      "as-needed",
-      { requireReturnForObjectLiteral: false },
-    ], // https://eslint.org/docs/rules/arrow-body-style
+    "arrow-body-style": ["error", "as-needed", { requireReturnForObjectLiteral: false }], // https://eslint.org/docs/rules/arrow-body-style
     "arrow-parens": "off", // https://eslint.org/docs/rules/arrow-parens
     "arrow-spacing": "off", // https://eslint.org/docs/rules/arrow-spacing
     "constructor-super": "error", // https://eslint.org/docs/rules/constructor-super
@@ -23,10 +19,7 @@ module.exports = {
     "no-this-before-super": "error", // https://eslint.org/docs/rules/no-this-before-super
     "no-useless-computed-key": ["error", { enforceForClassMembers: true }], // https://eslint.org/docs/rules/no-useless-computed-key
     "no-useless-constructor": "off", // https://eslint.org/docs/rules/no-useless-constructor
-    "no-useless-rename": [
-      "error",
-      { ignoreImport: false, ignoreExport: false, ignoreDestructuring: false },
-    ], // https://eslint.org/docs/rules/no-useless-rename
+    "no-useless-rename": ["error", { ignoreImport: false, ignoreExport: false, ignoreDestructuring: false }], // https://eslint.org/docs/rules/no-useless-rename
     "no-var": "error", // https://eslint.org/docs/rules/no-var
     "object-shorthand": [
       "error",
@@ -37,14 +30,8 @@ module.exports = {
         avoidExplicitReturnArrows: false,
       },
     ], // https://eslint.org/docs/rules/object-shorthand
-    "prefer-arrow-callback": [
-      "error",
-      { allowNamedFunctions: true, allowUnboundThis: false },
-    ], // https://eslint.org/docs/rules/prefer-arrow-callback
-    "prefer-const": [
-      "error",
-      { destructuring: "all", ignoreReadBeforeAssign: false },
-    ], // https://eslint.org/docs/rules/prefer-const
+    "prefer-arrow-callback": ["error", { allowNamedFunctions: true, allowUnboundThis: false }], // https://eslint.org/docs/rules/prefer-arrow-callback
+    "prefer-const": ["error", { destructuring: "all", ignoreReadBeforeAssign: false }], // https://eslint.org/docs/rules/prefer-const
     "prefer-destructuring": ["error", { object: true, array: false }], // https://eslint.org/docs/rules/prefer-destructuring
     "prefer-numeric-literals": "error", // https://eslint.org/docs/rules/prefer-numeric-literals
     "prefer-reflect": "off", // https://eslint.org/docs/rules/prefer-reflect

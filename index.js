@@ -2,13 +2,7 @@
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: [
-    "./possible-errors.js",
-    "./best-practice.js",
-    "./es6",
-    "./variables",
-    "./stylistic",
-  ],
+  extends: ["./possible-errors.js", "./best-practice.js", "./es6", "./variables", "./stylistic"],
   plugins: [],
   rules: {},
   overrides: [

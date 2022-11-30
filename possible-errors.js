@@ -51,16 +51,10 @@ module.exports = {
     "no-unreachable-loop": ["error", { ignore: [] }], // https://eslint.org/docs/rules/no-unreachable-loop
     "no-unsafe-finally": "error", // https://eslint.org/docs/rules/no-unsafe-finally
     "no-unsafe-negation": ["error", { enforceForOrderingRelations: true }], // https://eslint.org/docs/rules/no-unsafe-negation
-    "no-unsafe-optional-chaining": [
-      "error",
-      { disallowArithmeticOperators: true },
-    ], // https://eslint.org/docs/rules/no-unsafe-optional-chaining
+    "no-unsafe-optional-chaining": ["error", { disallowArithmeticOperators: true }], // https://eslint.org/docs/rules/no-unsafe-optional-chaining
     "no-useless-backreference": "error", // https://eslint.org/docs/rules/no-useless-backreference
     "require-atomic-updates": "error", // https://eslint.org/docs/rules/require-atomic-updates
-    "use-isnan": [
-      "error",
-      { enforceForSwitchCase: true, enforceForIndexOf: true },
-    ], // https://eslint.org/docs/rules/use-isnan
+    "use-isnan": ["error", { enforceForSwitchCase: true, enforceForIndexOf: true }], // https://eslint.org/docs/rules/use-isnan
     "valid-jsdoc": "off", // https://eslint.org/docs/rules/valid-jsdoc
     "valid-typeof": ["error", { requireStringLiterals: true }], // https://eslint.org/docs/rules/valid-typeof
   },

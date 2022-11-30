@@ -93,17 +93,10 @@ module.exports = {
     "lines-between-class-members": "off", // https://eslint.org/docs/rules/lines-between-class-members
     "max-depth": ["error", { max: 3 }], // https://eslint.org/docs/rules/max-depth
     "max-len": "off", // https://eslint.org/docs/rules/max-len
-    "max-lines": [
-      "error",
-      { max: 300, skipBlankLines: true, skipComments: true },
-    ], // https://eslint.org/docs/rules/max-lines
+    "max-lines": ["error", { max: 300, skipBlankLines: true, skipComments: true }], // https://eslint.org/docs/rules/max-lines
     "max-nested-callbacks": ["error", { max: 2 }], // https://eslint.org/docs/rules/max-nested-callbacks
     "max-params": ["error", { max: 4 }], // https://eslint.org/docs/rules/max-params
-    "max-statements": [
-      "error",
-      { max: 25 },
-      { ignoreTopLevelFunctions: false },
-    ], // https://eslint.org/docs/rules/max-statements
+    "max-statements": ["error", { max: 25 }, { ignoreTopLevelFunctions: false }], // https://eslint.org/docs/rules/max-statements
     "max-statements-per-line": ["error", { max: 1 }], // https://eslint.org/docs/rules/max-statements-per-line
     "multiline-comment-style": "off", // https://eslint.org/docs/rules/multiline-comment-style
     "multiline-ternary": "off", // https://eslint.org/docs/rules/multiline-ternary
@@ -201,10 +194,7 @@ module.exports = {
         "@typescript-eslint/brace-style": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/brace-style.md
         "@typescript-eslint/comma-dangle": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/comma-dangle.md
         "@typescript-eslint/comma-spacing": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/comma-spacing.md
-        "@typescript-eslint/consistent-indexed-object-style": [
-          "error",
-          "record",
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/consistent-indexed-object-style.md
+        "@typescript-eslint/consistent-indexed-object-style": ["error", "record"], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/consistent-indexed-object-style.md
         "@typescript-eslint/consistent-type-imports": [
           "error",
           { prefer: "type-imports", disallowTypeAnnotations: true },
