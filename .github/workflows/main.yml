@@ -1,0 +1,47 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    name: Test and Build
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
+
+      - name: Install Dependencies
+        run: |
+          npm install
+
+      - name: Print tools and dependencies version
+        run: |
+          npm version
+          echo =======================================
+          npm list --all --json
+
+      - name: Check Lint
+        run: |
+          npm run lint:check
+
+      - name: Pack
+        run: |
+          npm pack
+
+      - name: Upload npm package
+        uses: actions/upload-artifact@v3
+        with:
+          name: nw-eslint-config-npm-package
+          retention-days: "15"
+          path: |
+            *.tgz

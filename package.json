@@ -12,6 +12,7 @@
   "scripts": {
     "# === GENERAL === #": "=======================================",
     "lint": "eslint --fix \"*.js\"",
+    "lint:check": "eslint \"*.js\"",
     "# === NPM PUBLISH === #": "===================================",
     "prepare": "husky install",
     "release": "np"
