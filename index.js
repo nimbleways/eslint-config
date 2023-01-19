@@ -1,5 +1,8 @@
 // @ts-check
 
+// Workaround to avoid declaring plugins and parsers as peer dependencies
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
   extends: ["./possible-errors.js", "./best-practice.js", "./es6", "./variables", "./stylistic"],
