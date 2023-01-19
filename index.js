@@ -5,7 +5,13 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: ["./possible-errors.js", "./best-practice.js", "./es6", "./variables", "./stylistic"],
+  extends: [
+    "./configurations/possible-errors.js",
+    "./configurations/best-practice.js",
+    "./configurations/es6",
+    "./configurations/variables",
+    "./configurations/stylistic",
+  ],
   plugins: [],
   rules: {},
   overrides: [
