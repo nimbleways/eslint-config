@@ -27,8 +27,9 @@
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "peerDependencies": {
-    "typescript": ">=4.5.4",
-    "eslint": ">=7"
+    "eslint": ">=7",
+    "prettier": ">=2.5.1",
+    "typescript": ">=4.5.4"
   },
   "devDependencies": {
     "@types/eslint": "^8.2.1",
@@ -36,7 +37,8 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.1.5",
     "np": "^7",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
   },
   "eslintConfig": {
     "extends": [
