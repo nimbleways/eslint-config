@@ -97,6 +97,7 @@ module.exports = {
     radix: ["error", "always"], // https://eslint.org/docs/rules/radix
     "require-await": "off", // https://eslint.org/docs/rules/require-await
     "require-unicode-regexp": "error", // https://eslint.org/docs/rules/require-unicode-regexp
+    strict: "off", // https://eslint.org/docs/latest/rules/strict
     "vars-on-top": "off", // https://eslint.org/docs/rules/vars-on-top
     "wrap-iife": "off", // https://eslint.org/docs/rules/wrap-iife
     yoda: ["error", "never", { exceptRange: true }], // https://eslint.org/docs/rules/yoda
