@@ -21,11 +21,11 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "1.2.0",
-    "@typescript-eslint/eslint-plugin": "5.27.0",
-    "@typescript-eslint/parser": "5.27.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-simple-import-sort": "7.0.0"
+    "@typescript-eslint/eslint-plugin": "5.48.2",
+    "@typescript-eslint/parser": "5.48.2",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-simple-import-sort": "9.0.0"
   },
   "peerDependencies": {
     "eslint": ">=7",
@@ -33,14 +33,14 @@
     "typescript": ">=4.5.4"
   },
   "devDependencies": {
-    "@types/eslint": "^8.2.1",
-    "eslint": "7.32.0",
+    "@types/eslint": "^8.4.10",
+    "eslint": "8.32.0",
     "eslint-find-rules": "^4.1.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.5",
     "np": "^7",
-    "prettier": "2.5.1",
-    "typescript": "4.5.4"
+    "prettier": "2.8.3",
+    "typescript": "4.9.4"
   },
   "eslintConfig": {
     "extends": [
