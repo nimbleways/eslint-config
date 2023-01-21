@@ -11,6 +11,7 @@ module.exports = {
     "./configurations/es6",
     "./configurations/variables",
     "./configurations/stylistic",
+    "./configurations/jsx-a11y",
   ],
   plugins: [],
   rules: {},
