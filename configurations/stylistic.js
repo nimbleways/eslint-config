@@ -256,5 +256,11 @@ module.exports = {
         "@typescript-eslint/type-annotation-spacing": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/type-annotation-spacing.md
       },
     },
+    {
+      "files": ["*.{spec,test}.{ts,tsx}"],
+      "rules": {
+        "max-nested-callbacks": ["error", { "max": 4 }],
+      }
+    }
   ],
 };
