@@ -10,6 +10,7 @@ module.exports = {
     "no-compare-neg-zero": "error", // https://eslint.org/docs/rules/no-compare-neg-zero
     "no-cond-assign": "error", // https://eslint.org/docs/rules/no-cond-assign
     "no-console": "error", // https://eslint.org/docs/rules/no-console
+    "no-constant-binary-expression": "error", // https://eslint.org/docs/latest/rules/no-constant-binary-expression
     "no-constant-condition": "off", // https://eslint.org/docs/rules/no-constant-condition
     "no-control-regex": "error", // https://eslint.org/docs/rules/no-control-regex
     "no-debugger": "error", // https://eslint.org/docs/rules/no-debugger
@@ -19,6 +20,7 @@ module.exports = {
     "no-duplicate-case": "error", // https://eslint.org/docs/rules/no-duplicate-case
     "no-empty": ["error", { allowEmptyCatch: true }], // https://eslint.org/docs/rules/no-empty
     "no-empty-character-class": "error", // https://eslint.org/docs/rules/no-empty-character-class
+    "no-empty-static-block": "error", // https://eslint.org/docs/latest/rules/no-empty-static-block
     "no-ex-assign": "error", // https://eslint.org/docs/rules/no-ex-assign
     "no-extra-boolean-cast": ["error", { enforceForLogicalOperands: true }], // https://eslint.org/docs/rules/no-extra-boolean-cast
     "no-extra-parens": "off", // https://eslint.org/docs/rules/no-extra-parens
@@ -39,6 +41,7 @@ module.exports = {
     "no-loss-of-precision": "off", // https://eslint.org/docs/rules/no-loss-of-precision
     "no-misleading-character-class": "error", // https://eslint.org/docs/rules/no-misleading-character-class
     "no-negated-in-lhs": "off", // https://eslint.org/docs/rules/no-negated-in-lhs
+    "no-new-native-nonconstructor": "error", // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
     "no-obj-calls": "error", // https://eslint.org/docs/rules/no-obj-calls
     "no-promise-executor-return": "error", // https://eslint.org/docs/rules/no-promise-executor-return
     "no-prototype-builtins": "error", // https://eslint.org/docs/rules/no-prototype-builtins

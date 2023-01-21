@@ -83,6 +83,7 @@ module.exports = {
     "no-unmodified-loop-condition": "error", // https://eslint.org/docs/rules/no-unmodified-loop-condition
     "no-unused-expressions": "off", // https://eslint.org/docs/rules/no-unused-expressions
     "no-unused-labels": "off", // https://eslint.org/docs/rules/no-unused-labels
+    "no-unused-private-class-members": "error", // https://eslint.org/docs/latest/rules/no-unused-private-class-members
     "no-useless-call": "error", // https://eslint.org/docs/rules/no-useless-call
     "no-useless-catch": "error", // https://eslint.org/docs/rules/no-useless-catch
     "no-useless-concat": "error", // https://eslint.org/docs/rules/no-useless-concat
@@ -92,6 +93,7 @@ module.exports = {
     "no-warning-comments": ["warn", { terms: ["todo", "fixme", "tofix", "fix"], location: "start" }], // https://eslint.org/docs/rules/no-warning-comments
     "no-with": "error", // https://eslint.org/docs/rules/no-with
     "prefer-named-capture-group": "error", // https://eslint.org/docs/rules/prefer-named-capture-group
+    "prefer-object-has-own": "off", // https://eslint.org/docs/latest/rules/prefer-object-has-own
     "prefer-promise-reject-errors": ["error", { allowEmptyReject: false }], // https://eslint.org/docs/rules/prefer-promise-reject-errors
     "prefer-regex-literals": ["error", { disallowRedundantWrapping: true }], // https://eslint.org/docs/rules/prefer-regex-literals
     radix: ["error", "always"], // https://eslint.org/docs/rules/radix
