@@ -268,5 +268,24 @@ module.exports = {
         "@typescript-eslint/unbound-method": ["error", { ignoreStatic: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/unbound-method.md
       },
     },
+    {
+      files: ["**/*.tsx"],
+      rules: {
+        "@typescript-eslint/no-misused-promises": [
+          "error",
+          {
+            checksConditionals: true,
+            checksSpreads: true,
+            checksVoidReturn: {
+              arguments: true,
+              attributes: false,
+              properties: true,
+              returns: true,
+              variables: true,
+            },
+          },
+        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v5.27.0/packages/eslint-plugin/docs/rules/no-misused-promises.md
+      },
+    },
   ],
 };
