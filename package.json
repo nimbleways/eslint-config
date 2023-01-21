@@ -28,7 +28,7 @@
     "eslint-plugin-simple-import-sort": "9.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=7",
+    "eslint": ">=8.27.0",
     "prettier": ">=2.5.1",
     "typescript": ">=4.5.4"
   },
