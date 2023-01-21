@@ -14,6 +14,7 @@
     "# === GENERAL === #": "=======================================",
     "lint": "eslint --fix \"*.js\"",
     "lint:check": "eslint \"*.js\"",
+    "check-missing-rules": "eslint-find-rules --unused",
     "# === NPM PUBLISH === #": "===================================",
     "prepare": "husky install",
     "release": "np"
@@ -34,6 +35,7 @@
   "devDependencies": {
     "@types/eslint": "^8.2.1",
     "eslint": "7.32.0",
+    "eslint-find-rules": "^4.1.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.5",
     "np": "^7",
