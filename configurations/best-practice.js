@@ -287,5 +287,11 @@ module.exports = {
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v5.27.0/packages/eslint-plugin/docs/rules/no-misused-promises.md
       },
     },
+    {
+      "files": ["*.{spec,test}.{ts,tsx}"],
+      "rules": {
+        "@typescript-eslint/unbound-method": "off", // should use eslint-plugin-jest's version of this rule instead
+      }
+    }
   ],
 };
