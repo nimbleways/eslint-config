@@ -175,7 +175,10 @@ module.exports = {
         "@typescript-eslint/no-loop-func": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-loop-func.md
         "@typescript-eslint/no-magic-numbers": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-magic-numbers.md
         "@typescript-eslint/no-misused-new": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-misused-new.md
-        "@typescript-eslint/no-misused-promises": ["error", { checksVoidReturn: true, checksConditionals: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-misused-promises.md
+        "@typescript-eslint/no-misused-promises": [
+          "error",
+          { checksVoidReturn: true, checksConditionals: true, checksSpreads: true },
+        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v5.27.0/packages/eslint-plugin/docs/rules/no-misused-promises.md
         "@typescript-eslint/no-namespace": ["error", { allowDeclarations: false, allowDefinitionFiles: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-namespace.md
         "@typescript-eslint/no-redeclare": ["error", { builtinGlobals: true, ignoreDeclarationMerge: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-redeclare.md
         "@typescript-eslint/no-require-imports": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-require-imports.md
