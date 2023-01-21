@@ -248,6 +248,19 @@ module.exports = {
           },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/restrict-template-expressions.md
         "@typescript-eslint/return-await": ["error", "in-try-catch"], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/return-await.md
+        "@typescript-eslint/strict-boolean-expressions": [
+          "error",
+          {
+            allowString: false,
+            allowNumber: false,
+            allowNullableObject: false,
+            allowNullableBoolean: false,
+            allowNullableString: false,
+            allowNullableNumber: false,
+            allowAny: false,
+            allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
+          },
+        ], // https://typescript-eslint.io/rules/strict-boolean-expressions/
         "@typescript-eslint/switch-exhaustiveness-check": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md
         "@typescript-eslint/unbound-method": ["error", { ignoreStatic: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/unbound-method.md
       },
