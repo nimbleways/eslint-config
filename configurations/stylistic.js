@@ -85,7 +85,7 @@ module.exports = {
     "function-paren-newline": "off", // https://eslint.org/docs/rules/function-paren-newline
     "id-blacklist": "off", // https://eslint.org/docs/rules/id-blacklist
     "id-denylist": "off", // https://eslint.org/docs/rules/id-denylist
-    "id-length": ["error", { min: 2, properties: "always", exceptions: ["e"] }], // https://eslint.org/docs/rules/id-length
+    "id-length": ["error", { min: 2, properties: "always", exceptions: ["e", "_"] }], // https://eslint.org/docs/rules/id-length
     "id-match": "off", // https://eslint.org/docs/rules/id-match
     "implicit-arrow-linebreak": "off", // https://eslint.org/docs/rules/implicit-arrow-linebreak
     indent: "off", // https://eslint.org/docs/rules/indent
