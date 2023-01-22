@@ -13,7 +13,7 @@ module.exports = {
     ],
     "simple-import-sort/exports": "off",
     "simple-import-sort/imports": [
-      "warn",
+      "error",
       {
         groups: [
           /**
