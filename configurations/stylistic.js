@@ -98,7 +98,7 @@ module.exports = {
     "lines-around-comment": "off", // https://eslint.org/docs/rules/lines-around-comment
     "lines-around-directive": "off", // https://eslint.org/docs/rules/lines-around-directive
     "lines-between-class-members": "off", // https://eslint.org/docs/rules/lines-between-class-members
-    "logical-assignment-operators": ["error", "always", { enforceForIfStatements: false }], // https://eslint.org/docs/latest/rules/logical-assignment-operators
+    "logical-assignment-operators": ["error", "never"], // https://eslint.org/docs/latest/rules/logical-assignment-operators
     "max-depth": ["error", { max: 3 }], // https://eslint.org/docs/rules/max-depth
     "max-len": "off", // https://eslint.org/docs/rules/max-len
     "max-lines": ["error", { max: 300, skipBlankLines: true, skipComments: true }], // https://eslint.org/docs/rules/max-lines
