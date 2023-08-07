@@ -9,7 +9,7 @@ module.exports = {
     "no-await-in-loop": "error", // https://eslint.org/docs/rules/no-await-in-loop
     "no-compare-neg-zero": "error", // https://eslint.org/docs/rules/no-compare-neg-zero
     "no-cond-assign": "error", // https://eslint.org/docs/rules/no-cond-assign
-    "no-console": "error", // https://eslint.org/docs/rules/no-console
+    "no-console": "warn", // https://eslint.org/docs/rules/no-console
     "no-constant-binary-expression": "error", // https://eslint.org/docs/latest/rules/no-constant-binary-expression
     "no-constant-condition": "off", // https://eslint.org/docs/rules/no-constant-condition
     "no-control-regex": "error", // https://eslint.org/docs/rules/no-control-regex
