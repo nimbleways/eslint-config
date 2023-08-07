@@ -236,7 +236,6 @@ module.exports = {
         "@typescript-eslint/no-confusing-non-null-assertion": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-confusing-non-null-assertion.md
         "@typescript-eslint/no-extra-non-null-assertion": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md
         "@typescript-eslint/no-non-null-assertion": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-non-null-assertion.md
-        "@typescript-eslint/no-parameter-properties": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-parameter-properties.md
         "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
           "error",
           {
@@ -245,12 +244,10 @@ module.exports = {
           },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md
         "@typescript-eslint/object-curly-spacing": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/object-curly-spacing.md
+        "@typescript-eslint/parameter-properties": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-parameter-properties.md
         "@typescript-eslint/prefer-for-of": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/prefer-for-of.md
         "@typescript-eslint/semi": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/semi.md
-        "@typescript-eslint/sort-type-union-intersection-members": [
-          "error",
-          { checkIntersections: true, checkUnions: true },
-        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/sort-type-union-intersection-members.md
+        "@typescript-eslint/sort-type-constituents": ["error", { checkIntersections: true, checkUnions: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/sort-type-union-intersection-members.md
         "@typescript-eslint/space-before-function-paren": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/space-before-function-paren.md
         "@typescript-eslint/space-infix-ops": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/space-infix-ops.md
         "@typescript-eslint/type-annotation-spacing": "off", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/type-annotation-spacing.md

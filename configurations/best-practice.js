@@ -143,7 +143,6 @@ module.exports = {
           "error",
           { ignoreArrowShorthand: false, ignoreVoidOperator: false },
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-confusing-void-expression.md
-        "@typescript-eslint/no-duplicate-imports": ["error", { includeExports: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-duplicate-imports.md
         "@typescript-eslint/no-dynamic-delete": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-dynamic-delete.md
         "@typescript-eslint/no-empty-function": [
           "error",
@@ -164,7 +163,6 @@ module.exports = {
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-extraneous-class.md
         "@typescript-eslint/no-floating-promises": ["error", { ignoreVoid: false, ignoreIIFE: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-floating-promises.md
         "@typescript-eslint/no-for-in-array": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-for-in-array.md
-        "@typescript-eslint/no-implicit-any-catch": ["error", { allowExplicitAny: false }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md
         "@typescript-eslint/no-implied-eval": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-implied-eval.md
         "@typescript-eslint/no-inferrable-types": ["error", { ignoreParameters: true, ignoreProperties: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-inferrable-types.md
         "@typescript-eslint/no-invalid-this": ["error", { capIsConstructor: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/no-invalid-this.md
@@ -240,7 +238,10 @@ module.exports = {
         ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/promise-function-async.md
         "@typescript-eslint/require-array-sort-compare": ["error", { ignoreStringArrays: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/require-array-sort-compare.md
         "@typescript-eslint/require-await": "error", // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/require-await.md
-        "@typescript-eslint/restrict-plus-operands": ["error", { checkCompoundAssignments: true }], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
+        "@typescript-eslint/restrict-plus-operands": [
+          "error",
+          { allowAny: false, allowBoolean: false, allowNullish: false, allowNumberAndString: false },
+        ], // https://github.com/typescript-eslint/typescript-eslint/blob/v4.29.0/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
         "@typescript-eslint/restrict-template-expressions": [
           "error",
           {
