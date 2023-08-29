@@ -2,17 +2,17 @@
 
 ![nimble-eslint-config](./banner.png)
 
-[![npm version](https://badge.fury.io/js/@nimbleways%2Feslint-config.svg)](https://badge.fury.io/js/@nimbleways%2Feslint-config)
+[![npm version](https://badge.fury.io/js/@nimbleways%2Feslint-config.svg)](https://www.npmjs.com/package/@nimbleways/eslint-config)
 
 
 [Nimbleways](https://www.nimbleways.com/)'s standardized [ESLint](https://github.com/eslint/eslint) configuration with bundled dependencies ([Prettier, TypeScript, etc.](./package.json))
 
 **Table of contents**
 
-- [Installing](#installing)
+- [Installation](#installation)
+- [Usage](#usage)
   - [React Projects](#react-projects)
   - [Next.js Projects](#nextjs-projects)
-- [Usage](#usage)
 
 ---
 
@@ -32,9 +32,7 @@ pnpm add --save-dev @nimbleways/eslint-config
 ```
 
 This package requires these peer depedencies:
-- eslint: >=8.27.0
-- prettier: >=2.5.1
-- typescript: >=4.5.4
+https://github.com/nimbleways/eslint-config/blob/6e04a77fb3e4580643e63dbecfce48ba65643100/package.json#L31-L35
 
 ## Usage
 In your ESLint config file:
