@@ -19,19 +19,19 @@
 ## Installation
 
 Using npm:
-```
+```bash
 npm install --save-dev @nimbleways/eslint-config
 ```
 Using Yarn:
-```
+```bash
 yarn add --dev @nimbleways/eslint-config
 ```
 Using pnpm:
-```
+```bash
 pnpm add --save-dev @nimbleways/eslint-config
 ```
 
-This package requires these peer depedencies:
+This package requires these peer dependencies:
 https://github.com/nimbleways/eslint-config/blob/6e04a77fb3e4580643e63dbecfce48ba65643100/package.json#L31-L35
 
 ## Usage
